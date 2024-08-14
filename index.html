@@ -1,0 +1,206 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Elden Ring Wiki</title>
+    <style>
+        body {
+            margin: 0;
+            font-family: 'Garamond', serif;
+            color: #f0e6d2;
+            background-color: #2c2c2c;
+            line-height: 1.6;
+        }
+        header {
+            background-color: #1a1a1a;
+            color: #ffd700;
+            padding: 1rem 0;
+            text-align: center;
+            box-shadow: 0 2px 4px rgba(0,0,0,0.5);
+            border-bottom: 2px solid #ffd700;
+        }
+        .container {
+            width: 85%;
+            margin: 0 auto;
+            max-width: 1200px;
+        }
+        .hero {
+            text-align: center;
+            padding: 6rem 2rem;
+            background: url('https://source.unsplash.com/1600x900/?food,drinks') no-repeat center center/cover;
+            color: #f0e6d2;
+            position: relative;
+            background-blend-mode: darken;
+            background-color: rgba(0, 0, 0, 0.7);
+        }
+        .hero::after {
+            content: "";
+            position: absolute;
+            top: 0;
+            left: 0;
+            width: 100%;
+            height: 100%;
+            background: rgba(0, 0, 0, 0.5);
+            z-index: 1;
+        }
+        .hero-content {
+            position: relative;
+            z-index: 2;
+        }
+        .hero h1 {
+            margin: 0;
+            font-size: 3.5rem;
+            font-weight: 700;
+            color: #ffd700;
+            text-shadow: 2px 2px 4px rgba(0,0,0,0.7);
+        }
+        .hero p {
+            font-size: 1.25rem;
+            margin: 1.5rem 0;
+            text-shadow: 1px 1px 3px rgba(0,0,0,0.7);
+        }
+        .cta-button {
+            background-color: #ffd700; 
+            color: #1a1a1a; 
+            padding: 0.75rem 2rem;
+            border: 2px solid #e6b800; 
+            border-radius: 0.5rem;
+            font-size: 1.1rem;
+            cursor: pointer;
+            text-decoration: none;
+            transition: background-color 0.3s ease, border 0.3s ease;
+        }
+        .cta-button:hover {
+            background-color: #e6b800; 
+            border-color: #ffd700; 
+        }
+        .product-highlight {
+            background: #1a1a1a;
+            padding: 4rem 2rem;
+            text-align: center;
+            color: #f0e6d2;
+            border-top: 2px solid #ffd700;
+        }
+        .product-highlight h2 {
+            font-size: 2.5rem;
+            margin-bottom: 1rem;
+            color: #ffd700;
+        }
+        .product-highlight p {
+            font-size: 1.1rem;
+            margin-bottom: 2rem;
+        }
+        footer {
+            background-color: #1a1a1a;
+            color: #ffd700;
+            text-align: center;
+            padding: 2rem 0;
+            border-top: 2px solid #ffd700;
+            position: relative;
+            bottom: 0;
+            width: 100%;
+        }
+        footer p {
+            margin: 0;
+            font-size: 1rem;
+        }
+        footer .social-media {
+            margin: 1rem 0;
+        }
+        footer .social-media a {
+            color: #ffd700;
+            margin: 0 0.75rem;
+            text-decoration: none;
+            font-size: 2rem;
+            transition: color 0.3s ease;
+        }
+        footer .social-media a:hover {
+            color: #e74c3c;
+        }
+    </style>
+    
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
+</head>
+<body>
+    <header>
+        <div class="container">
+            <h1>Elden Ring</h1>
+        </div>
+    </header>
+
+    <div class="hero">
+        <div class="hero-content">
+            <img src="Cool Text - Elden Ring Wiki 464042272604365.png" alt="Welcome to Elden Ring Wiki">
+            <p>We are an encyclopedia run and maintained by people just like you! Created by fans, for fans, the Elden Ring Wiki is dedicated to building a comprehensive and informative resource about all things Elden Ring.</p>
+        </div>
+    </div>
+
+    <div class="product-highlight">
+        <div class="container">
+            <h2>Videos</h2>
+            
+            
+            <div style="text-align:center; margin: 2rem 0 4rem 0;">
+                <iframe width="560" height="315" src="https://www.youtube.com/embed/pDUZNP52obY?si=GCi-3xCBwyHXzxPy" 
+                    title="YouTube video player" frameborder="0" 
+                    allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" 
+                    allowfullscreen>
+                </iframe>
+            </div>
+            
+           
+            <a href="chatbot.html" class="cta-button">Read More</a> 
+        </div>
+    </div>
+
+    <footer>
+        <div class="container" style="padding-top: 2rem;">
+            <div class="social-media">
+                <a href="https://www.facebook.com/ELDENRINGEU/?brand_redir=193600148201059" aria-label="Facebook" target="_blank">
+                    <i class="fab fa-facebook-f"></i>
+                </a>
+                <a href="https://x.com/ELDENRING?ref_src=twsrc%5Egoogle%7Ctwcamp%5Eserp%7Ctwgr%5Eauthor" aria-label="Twitter" target="_blank">
+                    <i class="fab fa-twitter"></i>
+                </a>
+                <a href="https://www.instagram.com/eldenring/" aria-label="Instagram" target="_blank">
+                    <i class="fab fa-instagram"></i>
+                </a>
+            </div>
+            <p>&copy; 2024 Elden Ring Wiki. All rights reserved.</p>
+        </div>
+    </footer>
+
+    <!-- ChainDesk AI Integration -->
+    <script type="module">
+        import Chatbox from 'https://cdn.jsdelivr.net/npm/@chaindesk/embeds@latest/dist/chatbox/index.js';
+      
+        const widget = await Chatbox.initBubble({
+          agentId: 'clzt5c6gl049yr0oeb6c1tv6l',
+          
+          // optional 
+          contact: {
+            firstName: 'John',
+            lastName: 'Doe',
+            email: 'customer@email.com',
+            phoneNumber: '+33612345644',
+            userId: '42424242',
+          },
+          // optional
+          initialMessages: [
+            'Hello Georges how are you doing today?',
+            'How can I help you ?',
+          ],
+          // optional
+          context: "The user you are talking to is John. Start by Greeting him by his name.",
+        });
+    
+        widget.open();
+        widget.close();
+        widget.toggle();
+      </script>
+</body>
+</html>
+
+
+
